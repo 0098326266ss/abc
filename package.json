@@ -5,8 +5,8 @@
   "main": "start.js",
   "scripts": {
     "start": "pm2 start start.js --deep-monitoring --attach --name PODDA-MD",
-    "stop": "pm2 stop ASITHA-MD",
-    "restart": "pm2 restart ASITHA-MD"
+    "stop": "pm2 stop PODDA-MD",
+    "restart": "pm2 restart PODDA-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:asitha-baliyes-new",
